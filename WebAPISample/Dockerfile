@@ -1,5 +1,5 @@
 ﻿# Use .NET 8 SDK to build the application
-FROM mcr.microsoft.com / dotnet / sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 # Set the working directory
 WORKDIR /app
 # Copy the project files
